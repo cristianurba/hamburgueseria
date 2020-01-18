@@ -330,6 +330,43 @@ main section div.blog article{
     width: 50%;
 }
 
+/* MENU */
+main section#todaysmenu{
+    background-color: #21242e;
+    width: 100%;
+    /* padding: 0em;
+    margin-bottom: 0em; */
+}
+main section#todaysmenu h2{
+    color: white;
+}
+
+main section#todaysmenu ul.menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+    margin-top: .5em;
+}
+
+main section#todaysmenu ul.menu li a.menuactivo{
+    background-color: #fa573a;
+    border-radius: 10px;
+}
+
+main section#todaysmenu div.textomenu{
+    display: block;
+    padding: 1em;
+}
+
+main section#todaysmenu h3{
+    color: white;
+}
+
+main section#todaysmenu p{
+    color: #aaa;
+}
+
 @media(min-width: 48.063em)
 {
     header .nav_top a span{
