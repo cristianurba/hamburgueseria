@@ -316,6 +316,20 @@ footer a{
     text-decoration: none;
 }
 
+/* BLOG */
+
+.flex article div h4{
+    color: #fa573a;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+main section div.blog article{
+    border-left: none;
+    border-bottom: none;
+    width: 50%;
+}
+
 @media(min-width: 48.063em)
 {
     header .nav_top a span{
@@ -333,7 +347,6 @@ footer a{
 
     main section .flex article:last-child{
         width: 100%;
-        text-align: center;
     }
 
     main section .underline{
