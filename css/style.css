@@ -348,6 +348,9 @@ main section div.blog article{
     main section .flex article:last-child{
         width: 100%;
     }
+    main section div.blog article:last-child{
+        width: 50%;
+    }
 
     main section .underline{
         margin-bottom: 2em;
@@ -399,4 +402,10 @@ main section .flex article:last-child{
     width: 33.33%;
 }
 
+main section div.blog article{
+    width: 33.33%;
+}
+main section div.blog article:last-child{
+    width: 33.33%;
+}
 }
