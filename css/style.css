@@ -304,7 +304,7 @@ p{
 footer{
     background-color: #21242e;
     color: white;
-    padding: 1.825em 0;
+    padding: 2.5em 0;
 }
 
 footer p{
@@ -421,6 +421,10 @@ main section#todaysmenu div.flex div.imagenesmenu article{
 
     main section .underline{
         margin-bottom: 2em;
+    }
+
+    main section#todaysmenu div.flex div.imagenesmenu article{
+        display: inline-block;
     }
 }
 
